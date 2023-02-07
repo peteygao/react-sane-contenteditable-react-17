@@ -31,7 +31,6 @@
     "dev:test": "jest --watch --verbose false",
     "lint": "yarn run lint:prettier",
     "lint:prettier": "prettier --write src/**/*",
-    "prepublish": "yarn build",
     "test": "jest"
   },
   "husky": {
