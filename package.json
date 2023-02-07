@@ -33,12 +33,6 @@
     "lint:prettier": "prettier --write src/**/*",
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run lint && yarn run build && git add lib/* .size-snapshot.json",
-      "pre-push": "yarn test"
-    }
-  },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "prop-types": "^15.6.2"
